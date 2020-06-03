@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { observable } from 'mobx';
 import { observer} from 'mobx-react';
 
-class Counter extends React.Component {
+class Counter extends Component {
   count = 0;
 
   render() {
